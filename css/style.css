@@ -1,0 +1,31 @@
+body{
+    padding: 15px;
+    background-color: azure;
+}
+.hidden {
+    display: none;
+}
+#btn {
+display: flex;
+justify-content: center;
+}
+.btn{
+ padding: 10px;
+ margin: 10px; 
+}
+.btn:hover{
+    background-color: brown;
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.head{
+text-align: center;
+}
+.head h1{
+    color: brown;
+}
+#error-message {
+    font-weight: 600;
+    color: red;
+}
